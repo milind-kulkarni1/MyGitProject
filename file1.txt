@@ -3,7 +3,7 @@ My name is milind #1 commit
 My name is milind #2 commit
 welcome to git
 
-class MyClass{
+class MyClass{ 
 	public static void main(String ... args){
 		System.out.println("Hello World");
 		System.out.println("Method Name");
