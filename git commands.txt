@@ -1,0 +1,110 @@
+ history
+    1  git --help
+    2  git config --global user.name "milind kulkarni"
+    3  git config --global user.email "milind_kulkarni1@persistent.com"
+    4  git config user.name
+    5  git config user.email
+    6  git config --list
+    7  git config --global core.editor "notepad"
+    8  git config --list
+    9  cd C:\git demo
+   10  cd C:/GitDemo
+   11  git -v
+   12  git --versiob
+   13  git --version
+   14  git --version
+   15  git init
+   16  git status
+   17  git add EMS.zip
+   18  git status
+   19  git commit -m "EMS.zip is created- commit #1"
+   20  git status
+   21  git status
+   22  git add file1.txt
+   23  git status
+   24  git commit -m "fil1.txt is create and committed #1"
+   25  git status
+   26  git add .
+   27  git commit -m "file1.txt is committed #2, lines added"
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "file1.txt- class MyClass is added to print HelloWorld"
+   32  git status
+   33  git commit -am "file1.txt- class MyClass is mdoified to print Method Name"
+   34  git status
+   35  git log
+   36  git log --oneline
+   37  git log --oneline -2
+   38  git log -2
+   39  git log --author="milind"
+   40  git log --author="milind" -2
+   41  git log --author="milind" -oneline -2
+   42  git log --author="milind" --oneline -2
+   43  history
+   44  git log --since="08-21-2019" --oneline
+   45  git log --since="08-20-2019" --oneline
+   46  git log --until="08-20-2019" --oneline
+   47  git log --until="08-21-2019" --oneline
+   48  git log --filename="file1.txt" --oneline
+   49  git log "file1.txt" --oneline
+   50  git log --oneline "file1.txt"
+   51  git log --oneline file1.txt
+   52  git log --grep="hello"
+   53  git log --grep="Hello"
+   54  git log --help
+   55  git log --help
+   56  git log --oneline
+   57  git checkout 097fe80
+   58  git checkout f12b8c4
+   59  git log --oneline
+   60  git checkout master
+   61  git statu
+   62  git status
+   63  git checkout master
+   64  git add .
+   65  git status
+   66  diff --help
+   67  git diff
+   68  git add .
+   69  git diff
+   70  git status
+   71  git diff --staged
+   72  git commit -m "file1.txt space added after in MyClass{ "
+   73  git diff
+   74  git diff --staged
+   75  git status
+   76  git log --oneline
+   77  git status
+   78  git rm EMS.zip
+   79  git status
+   80  git commit -m "EMS.zip is del as not required"
+   81  git status
+   82  git log --oneline
+   83  git ignore --help
+   84  git status
+   85  git status
+   86  git status
+   87  git status
+   88  git add .
+   89  git status
+   90  git commit -m ".gitignore is created to ignore .class, .jar ..."
+   91  git ignore --help
+   92  git log --oneline
+   93  git status
+   94  git status
+   95  git checkout -- file1.txt
+   96  git status
+   97  git log --oneline
+   98  revert --help
+   99  git revert --help
+  100  git commit -am "sysout to print HelloWorld2"
+  101  git log --oneline
+  102  git ?revert a4d2c8a
+  103  it ?revert a4d2c8a
+  104  igt ?revert a4d2c8a
+  105  git revert a4d2c8a
+  106  git log --oneline
+  107  git reset b835bfc
+  108  git log --oneline
+  109  history
