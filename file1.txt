@@ -4,11 +4,12 @@ My name is milind #2 commit
 welcome to git
 
 class MyClass{
-	private void myMethod(String name){
+	private static void myMethod(String name){
 		System.out.println("Method Name : "+ name);		
 	}
  
 	public static void main(String ... args){
 		System.out.println("Hello World");
+		myMethod("Welcome to Git");
 	}
 }
