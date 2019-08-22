@@ -7,3 +7,4 @@ change 2
 link removed
 
 remote-change 3
+change 3
